@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2e21f8df-38ff-405b-9b08-29d642ad47f4)## Install Eclipse IDE [Download](https://spring.io/tools).
+## Install Eclipse IDE [Download](https://spring.io/tools).
 
 ## MySQL 
 ```
@@ -17,26 +17,28 @@ spring.datasource.password=
 
 ## download and open this repository files in eclipse IDE
 
-## Rum *MarkSharksAssignment.java* file path = "src/main/java/com/marksharks/assg/MarkSharksAssignmentApplication.java"
+### Rum *MarkSharksAssignment.java* file 
+            - path = "src/main/java/com/marksharks/assg/MarkSharksAssignmentApplication.java"
 
 ## Insert some supplier data in mysql using this API "http://localhost:8080/api/supplier/create/" [POST]
-![Screenshot 2024-08-24 164827](https://github.com/user-attachments/assets/e95d7dcc-6151-4e33-b53a-1c826b677c49)
-### Write body section as raw data
+            -![Screenshot 2024-08-24 164827](https://github.com/user-attachments/assets/e95d7dcc-6151-4e33-b53a-1c826b677c49)
+            -### Write body section as raw data
 ```
-{
-            "companyName": "ghjs Manufacturing",
-            "website": "https://www.zxcvb.com",
-            "location": "Japan",
-            "natureOfBusiness": "MEDIUM_SCALE",
-            "manufacturingProcesses": [
-                "MOULDING",
-                "COATING"
-            ]
-}
+            {
+                        "companyName": "ghjs Manufacturing",
+                        "website": "https://www.zxcvb.com",
+                        "location": "Japan",
+                        "natureOfBusiness": "MEDIUM_SCALE",
+                        "manufacturingProcesses": [
+                            "MOULDING",
+                            "COATING"
+                        ]
+            }
 ```
 
 ## API to get All suppliers details without any filter 
   - http://localhost:8080/api/supplier/   [GET]
+  - ![image](https://github.com/user-attachments/assets/4a29c90e-d601-43bc-b8fd-9c14bc179698)
 
 ## API to get All suppliers details with filter 
 
